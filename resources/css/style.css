@@ -94,13 +94,11 @@ h4{
 .philo, .appoint{
   margin-top: 3rem;
 }
-.philo span, .appoint span{
-  min-width: 10rem;
+.title{
+  max-width: 10rem;
   font-weight: bold;
   font-size: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1.25rem;
+  padding: 0.5rem 1.25rem;
   background-color: cadetblue;
   color: white;
 }
