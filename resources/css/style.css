@@ -121,3 +121,77 @@ footer span{
   font-family: Helvetica;
   margin-top: 1rem;
 }
+
+/*here is to make it look breathtaking when seen on tablet*/
+@media only screen and (max-width:768px) {
+  .h-c{
+    height: 22rem;
+    background-position: center;
+    background-size: cover;
+  }
+  header{
+    width: 100%;
+    margin: 0 auto;
+  }
+  nav span{
+    margin: 1rem 1rem 1rem 0;
+  }
+  .cover{
+    margin-top: 7.25rem;
+    margin-right: 2rem;
+  }
+  .cover span{
+    padding: 1.25rem 4rem;
+    font-size: 1.33rem;
+  }
+  .philo, .appoint{
+    margin-left: 5%;
+  }
+}
+
+/*here is to make it look breathtaking when seen on phoneee*/
+@media only screen and (max-width:480px){
+  .h-c{
+    height: 17rem;
+    background-position: 20%;
+    background-size: cover;
+  }
+  header{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .cover{
+    margin-top: 9rem;
+    margin-right: 2rem;
+  }
+  .cover span{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .value-container{
+    margin-top: 3.77rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .value{
+    margin-bottom: 1.54rem;
+    font-size: 0.77rem;
+  }
+  .texts{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .philo , .appoint {
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+  .philo p, .appoint p{
+    font-size: 0.77rem;
+  }
+  footer{
+    width: 100%;
+  }
+}
