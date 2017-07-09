@@ -88,11 +88,12 @@ h4{
   max-width: 960px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
   font-family: Helvetica;
 }
 .philo, .appoint{
   margin-top: 3rem;
+  width: 35%;
+  margin-right: 5%;
 }
 .title{
   max-width: 10rem;
@@ -102,6 +103,21 @@ h4{
   background-color: cadetblue;
   color: white;
 }
-.philo p, .appoint p{
-  width: 35%;
+
+/*this is already the footer style yaaas*/
+footer{
+  margin-top: 5rem;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  width: 960px;
+  margin: 5rem auto 0 auto;
+}
+footer img{
+  height: 1.5rem;
+  margin: 4rem 1rem 3rem 4rem;
+}
+footer span{
+  font-family: Helvetica;
+  margin-top: 1rem;
 }
