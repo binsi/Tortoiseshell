@@ -65,7 +65,6 @@ nav span{
   height: 8rem;
   width: 5rem;
   margin: 3rem;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
 }
@@ -122,6 +121,12 @@ footer span{
   margin-top: 1rem;
 }
 
+/*DO not show the word "menu" yet!*/
+@media only screen and (min-width:769px) {
+  #menu{
+    display: none;
+  }
+}
 /*here is to make it look breathtaking when seen on tablet*/
 @media only screen and (max-width:768px) {
   .h-c{
@@ -135,6 +140,9 @@ footer span{
   }
   nav span{
     margin: 1rem 1rem 1rem 0;
+  }
+  #menu{
+    display: none;
   }
   .cover{
     margin-top: 7.25rem;
@@ -151,14 +159,26 @@ footer span{
 
 /*here is to make it look breathtaking when seen on phoneee*/
 @media only screen and (max-width:480px){
+  body{
+    margin: 0;
+  }
   .h-c{
     height: 17rem;
     background-position: 20%;
     background-size: cover;
   }
+  #tortoise{
+    display: none;
+  }
   header{
     width: 100%;
     margin: 0 auto;
+  }
+  #menu{
+    display: block;
+  }
+  #menu3{
+    display: none;
   }
   .cover{
     margin-top: 9rem;
@@ -193,5 +213,9 @@ footer span{
   }
   footer{
     width: 100%;
+    justify-content: center;
+  }
+  #copy{
+    display:none;
   }
 }
